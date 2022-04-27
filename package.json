@@ -1,6 +1,6 @@
 {
   "name": "@olessavluk/redux-batch",
-  "version": "1.0.1-throw-fix",
+  "version": "1.0.4-throw-fix",
   "license": "MIT",
   "repository": {
     "type": "git",
