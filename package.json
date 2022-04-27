@@ -1,7 +1,11 @@
 {
-  "name": "@manaflair/redux-batch",
-  "version": "1.0.0",
+  "name": "@olessavluk/redux-batch",
+  "version": "1.0.5",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olessavluk/redux-batch.git"
+  },
   "scripts": {
     "build": "babel -d build/ sources/",
     "prepare": "yarn run build"

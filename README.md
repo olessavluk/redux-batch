@@ -1,21 +1,21 @@
-# [![](/logo.png?raw=true)](https://github.com/manaflair/redux-batch)
+# [![](/logo.png?raw=true)](https://github.com/olessavluk/redux-batch)
 
 > Enhance your Redux store to support batched actions
 
-[![](https://img.shields.io/npm/v/@manaflair/redux-batch.svg)]() [![](https://img.shields.io/npm/l/@manaflair/redux-batch.svg)]()
+[![](https://img.shields.io/npm/v/@olessavluk/redux-batch.svg)]() [![](https://img.shields.io/npm/l/@olessavluk/redux-batch.svg)]()
 
 [Check out our other OSS projects!](https://manaflair.github.io)
 
 ## Installation
 
 ```
-$> npm install --save @manaflair/redux-batch
+$> npm install --save @olessavluk/redux-batch
 ```
 
 ## Usage
 
 ```js
-import { reduxBatch }  from '@manaflair/redux-batch';
+import { reduxBatch }  from '@olessavluk/redux-batch';
 import { createStore } from 'redux';
 
 let store = createStore(reducer, reduxBatch);
@@ -34,7 +34,7 @@ store.dispatch([
 ## Usage w/ extra middlewares
 
 ```js
-import { reduxBatch }                            from '@manaflair/redux-batch';
+import { reduxBatch }                            from '@olessavluk/redux-batch';
 import { put, takeEvery }                        from 'redux-saga/effects';
 import createSagaMiddleware                      from 'redux-saga';
 import { applyMiddleware, compose, createStore } from 'redux';

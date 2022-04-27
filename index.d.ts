@@ -1,4 +1,4 @@
-declare module "@manaflair/redux-batch" {
+declare module "@olessavluk/redux-batch" {
   import { AnyAction, StoreEnhancer } from "redux";
 
   export const reduxBatch: StoreEnhancer<{
